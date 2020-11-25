@@ -27,6 +27,7 @@ public:
 
 	virtual void identifyFailed(std::string channelId) =0;
 	virtual void identifySuccessfully(std::string channelId, std::string userId) =0;
+	virtual void setMediator(std::shared_ptr<Mediator> mediator);
 
 protected:
 	std::shared<Mediator> m_mediator;

@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////
 //  Identify.h
 //  Implementation of the Class Identify
-//  Created on:      19-11ÔÂ-2020 11:34:52
+//  Created on:      19-11ï¿½ï¿½-2020 11:34:52
 //  Original author: luozc
 ///////////////////////////////////////////////////////////
 
@@ -19,6 +19,7 @@ public:
 
 	virtual void identifyFailed(std::string channelId);
 	virtual void identifySuccessfully(std::string channelId, std::string userId);
+	virtual void setMediator(std::shared_ptr<Mediator> mediator);
 
 };
 #endif // !defined(EA_F774DA60_E2A5_4f49_8A3F_A57872732578__INCLUDED_)
